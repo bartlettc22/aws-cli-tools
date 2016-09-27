@@ -1,7 +1,7 @@
 #Amazon AWS CLI tools#
 
 ##Usage##
-`
+```
 docker run \
 	--rm \
 	-e AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
@@ -9,4 +9,4 @@ docker run \
 	-e AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION \
 	bartlettc/aws-cli-tools \
 	aws ecr get-login
-`
+```
